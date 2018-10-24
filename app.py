@@ -17,7 +17,7 @@ app = Flask(__name__)
 
 app.config['MONGO_DBNAME'] = ads
 app.config['MONGO_URI'] = 
-            "mongodb://aleix:m10lab@ds115553.mlab.com:15553/ads"
+            "mongodb://heroku:m10lab@ds239903.mlab.com:39903/ads"
 
 mongo = PyMongo(app)
 
